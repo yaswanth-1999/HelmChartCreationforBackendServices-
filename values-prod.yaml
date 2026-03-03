@@ -1,0 +1,11 @@
+replicaCount: 4
+image:
+  repository: nginx
+  tag: latest
+config:
+  APP_ENV: prod
+  LOG_LEVEL: error
+resources:
+  limits:
+    cpu: "1"
+    memory: "1Gi"

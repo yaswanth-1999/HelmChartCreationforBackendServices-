@@ -1,0 +1,7 @@
+replicaCount: 1
+image:
+  repository: nginx
+  tag: latest
+config:
+  APP_ENV: dev
+  LOG_LEVEL: debug
